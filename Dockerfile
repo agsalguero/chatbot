@@ -10,6 +10,8 @@ COPY services/*.py ./services/
 
 RUN pip install -r requirements.txt
 
+EXPOSE 5000
+
 CMD ["flask", "--app", "main", "run", "--host=0.0.0.0", "--port=5000", "--debug"]
 
 # to build the image (from root directory)
