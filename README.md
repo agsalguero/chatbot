@@ -27,7 +27,7 @@ chatbot
 
 2. Install the required packages:
    ```
-   pip install -r requirements.txt
+   pip install -r app/requirements.txt
    ```
 
 ## Usage
