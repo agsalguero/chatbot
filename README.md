@@ -34,7 +34,7 @@ chatbot
 
 1. Run the application:
    ```
-   python app/main.py
+   flask --app app/main run --host=0.0.0.0
    ```
 
 2. Send a POST request to the `/send-message` endpoint with a JSON body containing the text input:
